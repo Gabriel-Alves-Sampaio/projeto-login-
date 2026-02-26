@@ -46,7 +46,7 @@
    git clone https://github.com/Gabriel-Alves-Sampaio/projeto-login-.git
 ~~~
 Autor / Author
-![Foto do autor](autor.jpng)
+![Foto do autor](autor.jpeg)
 
    ~~~ shell
     www.linkedin.com/in/gabriel-alves-6a8681310
