@@ -1,67 +1,122 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Signin Template · Bootstrap v5.0</title>
+    <meta name="description" content="Página de Login com FAQ">
+    <meta name="author" content="Seu Nome">
+    <title>Página de Acesso · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
-
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+      body {
+        background-color: #f5f5f5;
+        padding-top: 40px;
+        padding-bottom: 40px;
       }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+      .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: auto;
+      }
+
+      .form-signin .form-floating:focus-within {
+        z-index: 2;
+      }
+
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+
+      .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      .faq-section {
+        max-width: 500px;
+        margin: 40px auto;
+        text-align: left;
       }
     </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
 <main class="form-signin">
   <form>
-    <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Por favor entrar</h1>
+    <img class="mb-4" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap Logo" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Acesse sua conta</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Adicionar email</label>
+      <input type="email" class="form-control" id="floatingInput" placeholder="nome@exemplo.com">
+      <label for="floatingInput">Endereço de e-mail</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
       <label for="floatingPassword">Senha</label>
     </div>
-
+<!--Senha-->
     <div class="checkbox mb-3">
       <label>
-        <input type="checkbox" value="remember-me"> Relembrar-me
+        <input type="checkbox" value="remember-me"> Lembrar de mim
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">entrar</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+    <!--Botão de login-->
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
   </form>
 </main>
+<!--Perguntas Frequentes-->
+<section class="faq-section container">
+  <hr>
+  <h2 class="h5 mb-3 text-center">Perguntas Frequentes</h2>
+  <div class="accordion" id="accordionFAQ">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          Como recuperar minha senha?
+        </button>
+      </h2>
+      <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+        <div class="accordion-body">
+          Caso tenha esquecido sua senha, clique em "Esqueci minha senha" para iniciar o processo de recuperação via e-mail.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+          Quais tecnologias este projeto utiliza?
+        </button>
+      </h2>
+      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+        <div class="accordion-body">
+          Este projeto utiliza <strong>HTML5</strong>, <strong>CSS3</strong> e o framework <strong>Bootstrap 5.3</strong> para garantir responsividade.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+          O site é seguro?
+        </button>
+      </h2>
+      <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+        <div class="accordion-body">
+          Sim, este é um template que segue as melhores práticas de acessibilidade e semântica web.
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="mt-5 mb-3 text-muted text-center">&copy; 2017–2026</p>
+</section>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
   </body>
 </html>

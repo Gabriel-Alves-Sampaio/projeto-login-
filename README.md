@@ -1,37 +1,59 @@
 # Projeto: Tela de Login Responsiva 🔒
 
-## 📝 Descrição
-Este projeto foi desenvolvido como parte da disciplina de *Programação Front-End* na Unicesumar (Campus Londrina), sob orientação do professor [Leonardo Rocha](https://github.com/leonardossrocha). 
 
-O objetivo principal foi a criação de uma interface de autenticação moderna e funcional, aplicando conceitos de *Mobile First* e componentização. O projeto serviu como laboratório prático para o uso de frameworks CSS e fluxos de trabalho com controle de versão (Git).
+# Projeto Login Page com FAQ 🚀
 
----
+<p align ="center">
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-success?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Tecnologias-HTML%20%26%20Bootstrap-blue?style=for-the-badge" alt="Tecnologias">
+</p>
 
-## 🚀 Tecnologias Utilizadas
-O projeto foi construído utilizando as seguintes tecnologias e ferramentas:
+## 📝 Descrição / Description
 
-* *HTML5*: Estruturação semântica de formulários e acessibilidade.
-* *CSS3*: Estilização personalizada para refinamento visual.
-* *Bootstrap 5*: Framework utilizado para agilizar o desenvolvimento e garantir a responsividade.
-* *Git & GitHub*: Versionamento de código e gerenciamento de repositório remoto.
+*PT:* Este projeto consiste em uma página de login responsiva integrada a uma seção de FAQ (Perguntas Frequentes). O objetivo foi praticar a estruturação de formulários e o uso de componentes interativos do Bootstrap.
 
----
+*EN:* This project features a responsive login page integrated with a FAQ (Frequently Asked Questions) section. The goal was to practice form structuring and the use of interactive Bootstrap components.
 
-## 🛠️ Comandos Git Praticados
-Durante o desenvolvimento, foi implementado o fluxo padrão de versionamento:
-1. git status: Para monitorar o estado dos arquivos.
-2. git add .: Para preparar as alterações para o commit.
-3. git commit -m "mensagem": Para registrar o histórico de alterações.
-4. git push: Para enviar o código ao repositório remoto.
+## Comandos Git
 
----
+- git add
+- git commit
+- git clone
+- git push
+- git status
 
-## ✨ Funcionalidades
-* Interface totalmente responsiva (se adapta a celulares, tablets e desktops).
-* Formulário de login com validação visual via Bootstrap.
-* Layout limpo e focado na experiência do usuário (UX).
+## 🛠️ Tecnologias / Technologies
 
----
+- *HTML5* (Semântico / Semantic)
+- *CSS3* (Customizado / Custom styles)
+- *Bootstrap 5.0* (Framework UI)
+- *JavaScript* (Bootstrap Bundle para o Accordion)
 
-## 👤 Autor
-*Gabriel Alves* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-alves-6a8681310)
+
+
+## ⚙️ Funcionalidades / Features
+
+-  *Formulário de Login:* Validado para e-mail e senha.
+-  *FAQ Interativo:* Seção de perguntas frequentes utilizando o componente Accordion.
+-  *Responsividade:* Totalmente adaptável para dispositivos móveis.
+-  *Github Pages:* Projeto hospedado e pronto para visualização online.
+
+
+## 🚀 Como rodar o projeto / How to run
+
+1. Clone este repositório / Clone this repository:
+~~~ shell
+   git clone https://github.com/Gabriel-Alves-Sampaio/projeto-login-.git
+~~~
+Autor / Author
+![Foto do autor](autor.jpng)
+
+   ~~~ shell
+    www.linkedin.com/in/gabriel-alves-6a8681310
+   ~~~
+   ~~~ shell
+    https://github.com/Gabriel-Alves-Sampaio.png
+~~~
+
+## Demonstração do Projeto
+![Print da Tela de Login](print-projeto.png)
